@@ -1,0 +1,10 @@
+<?php
+// sa
+// comment yazdik
+define(BASE_PATH, dirname(__DIR__));
+
+//buralari okuma gardash
+use THP\Compiler\Compiler;
+
+require_once('../vendor/autoload.php');
+$a = Compiler::check(BASE_PATH . '/public/index.php');

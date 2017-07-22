@@ -1,0 +1,10 @@
+{
+  "require": {
+    "hoa/compiler": "3.17.01.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "THP\\": "src"
+    }
+  }
+}
